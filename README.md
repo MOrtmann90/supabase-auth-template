@@ -31,12 +31,14 @@ Descargar el repositorio y ejecutar
 ```bash
   npm install
 ```
+- Configurar las variables de entorno
+- Modificar estilos globales en tailwind.config.js
     
 ## Tech Stack
 
 **Client:** React, TailwindCSS
 
-**Server:** Supabase (BAAS)
+**Server:** Supabase (BaaS)
 
 
 ## Autor

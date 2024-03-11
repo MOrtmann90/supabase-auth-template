@@ -6,4 +6,8 @@
   .landing-page {
     @apply flex items-center justify-center h-full bg-bgColor/80 bg-mainImgBg bg-cover bg-center;
   }
+
+  .floating-transparency {
+    @apply absolute bg-bgColor/80 top-0 bottom-0 w-full;
+  }
 }

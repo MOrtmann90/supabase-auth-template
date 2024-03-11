@@ -1,17 +1,18 @@
 import { FaXmark } from "react-icons/fa6";
 import { FaTriangleExclamation } from "react-icons/fa6";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import "./toastError.css";
 
 const ToastError = ({ error, setError }) => {
   useEffect(() => {
+    console.log("Se ejecutó useEffect");
     const timer = setTimeout(() => {
       closeToast();
     }, 3500);
     return () => clearTimeout(timer);
-  }, []);
+  }, [error]);
 
   const closeToast = () => {
     setError(false);

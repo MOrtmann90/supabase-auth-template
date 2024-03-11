@@ -4,11 +4,11 @@
 
 @layer components {
   footer {
-    @apply bg-bgColor text-neutral-500 flex justify-center pt-4;
+    @apply bg-bgColor text-neutral-500 flex justify-center pt-4 relative;
   }
 
   .footer-container {
-    @apply flex flex-col lg:flex-row lg:w-3/4 mx-auto border-t-[1px] border-neutral-600 p-2 justify-center text-center;
+    @apply flex flex-col sm:flex-row sm:w-3/4 mx-auto border-t-[1px] border-neutral-600 p-2 justify-center text-center;
   }
 
   p {

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .landing-page {
+    @apply flex items-center justify-center h-full bg-bgColor/80 bg-mainImgBg bg-cover bg-center;
+  }
+}

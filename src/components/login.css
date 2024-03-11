@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  form {
+    @apply relative flex flex-col gap-y-2 w-72;
+  }
+
+  .form-input {
+    @apply border border-white/50 bg-white/20 text-white p-2 rounded-md block placeholder:text-white/50 placeholder:font-light outline-transparent shadow-xl;
+  }
+}

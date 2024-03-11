@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .toast-container {
+    @apply fixed top-0 lg:top-4 justify-between lg:rounded-md text-errorText font-medium bg-errorBg flex items-center left-1/2 -translate-x-1/2 select-none animate-fade animate-duration-[300ms] h-16 w-full lg:w-1/4;
+  }
+
+  .toast-warn {
+    @apply h-full bg-red-500 flex items-center p-4 lg:rounded-l-md text-white;
+  }
+
+  .toast-text {
+    @apply text-xl font-normal;
+  }
+
+  .toast-icon-div {
+    @apply rounded-full hover:bg-black/20 size-6 flex justify-center items-center cursor-pointer m-2;
+  }
+
+  .toast-close-icon {
+    @apply size-6 text-errorText;
+  }
+}

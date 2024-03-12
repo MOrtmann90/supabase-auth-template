@@ -12,7 +12,7 @@
   }
 
   .toast-text {
-    @apply text-xl font-normal;
+    @apply text-xl font-normal mx-2;
   }
 
   .toast-icon-div {

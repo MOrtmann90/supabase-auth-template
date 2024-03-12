@@ -6,16 +6,16 @@
   .main-app {
     @apply h-screen flex flex-col;
   }
-  
+
   .links {
     @apply hover:text-main;
   }
 
   .btn-main {
-    @apply p-2 font-semibold bg-main rounded-md uppercase text-white hover:opacity-80 shadow-xl	;
+    @apply p-2 font-semibold bg-main rounded-md uppercase text-white hover:opacity-80 shadow-xl	select-none;
   }
 
   .btn-sec {
-    @apply py-1 px-2 font-semibold bg-white rounded-md uppercase text-main hover:opacity-80;
+    @apply py-1 px-2 font-semibold bg-white rounded-md uppercase text-main hover:opacity-80	select-none;
   }
 }

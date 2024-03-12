@@ -8,6 +8,14 @@
   }
 
   .form-input {
-    @apply border border-white/50 bg-white/20 text-white p-2 rounded-md block placeholder:text-white/50 placeholder:font-light outline-transparent shadow-xl;
+    @apply border border-white/50 bg-white/20 text-white p-2 rounded-md block placeholder:text-white/50 placeholder:font-light outline-transparent shadow-xl w-72;
+  }
+
+  .password-label {
+    @apply absolute top-1/2 -translate-y-1/2 right-3 cursor-pointer;
+  }
+
+  .eye-icon {
+    @apply text-neutral-200;
   }
 }

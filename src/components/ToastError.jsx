@@ -7,7 +7,6 @@ import "./toastError.css";
 
 const ToastError = ({ error, setError }) => {
   useEffect(() => {
-    console.log("Se ejecutó useEffect");
     const timer = setTimeout(() => {
       closeToast();
     }, 3500);
